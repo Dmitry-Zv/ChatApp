@@ -9,7 +9,8 @@ import io.ktor.client.call.*
 import io.ktor.http.*
 import javax.inject.Inject
 
-class MessageRepositoryImpl @Inject constructor(private val messageService: MessageService) : MessageRepository {
+class MessageRepositoryImpl @Inject constructor(private val messageService: MessageService) :
+    MessageRepository {
 
     override suspend fun getAllMessages(): Resource<List<Message>> {
         return try {

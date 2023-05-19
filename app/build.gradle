@@ -80,6 +80,8 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
 
+    //Accompanist
+    implementation "com.google.accompanist:accompanist-systemuicontroller:0.28.0"
 
     //ktor
     def ktor_version = "2.3.0"
